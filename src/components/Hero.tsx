@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Download, Briefcase } from 'lucide-react';
-import profileImg from '../assets/profile/zulfi.JPG';
+import profileImg from '../assets/profile/profile.jpeg';
 
 export default function Hero() {
     return (
