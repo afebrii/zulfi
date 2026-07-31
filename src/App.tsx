@@ -1,7 +1,6 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
-import Certification from './components/Certification';
 import Project from './components/Project';
 import Contact from './components/Contact';
 
@@ -13,7 +12,6 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Certification />
         <Project />
         <Contact />
       </main>

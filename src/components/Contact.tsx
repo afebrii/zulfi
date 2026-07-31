@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send, MessageSquare, Linkedin, Github, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, MessageSquare } from 'lucide-react';
 
 export default function Contact() {
     return (
@@ -46,8 +46,8 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <p className="text-sm text-slate-400 font-medium mb-1">Email</p>
-                                        <a href="mailto:zulfiseptiaanzana@gmail.com" className="text-slate-200 hover:text-blue-400 transition-colors font-medium">
-                                            zulfiseptiaanzana@gmail.com
+                                        <a href="mailto:zulfianzana25@gmail.com" className="text-slate-200 hover:text-blue-400 transition-colors font-medium">
+                                            zulfianzana25@gmail.com
                                         </a>
                                     </div>
                                 </div>
@@ -58,8 +58,8 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <p className="text-sm text-slate-400 font-medium mb-1">Phone</p>
-                                        <a href="tel:+6281234567890" className="text-slate-200 hover:text-blue-400 transition-colors font-medium">
-                                            +62 812 3456 7890
+                                        <a href="tel:+6285810709883" className="text-slate-200 hover:text-blue-400 transition-colors font-medium">
+                                            +62 858 1070 9883
                                         </a>
                                     </div>
                                 </div>
@@ -71,27 +71,13 @@ export default function Contact() {
                                     <div>
                                         <p className="text-sm text-slate-400 font-medium mb-1">Location</p>
                                         <span className="text-slate-200 font-medium">
-                                            Jakarta, Indonesia
+                                            Tasikmalaya, Indonesia
                                         </span>
                                     </div>
                                 </div>
                             </div>
 
-                            {/* Social Links */}
-                            <div className="pt-8 mt-8 border-t border-slate-700/50">
-                                <p className="text-sm text-slate-400 font-medium mb-4">Follow Me</p>
-                                <div className="flex gap-4">
-                                    <a href="#" className="p-3 bg-slate-800 rounded-lg text-slate-400 hover:text-white hover:bg-blue-600 transition-colors">
-                                        <Linkedin size={20} />
-                                    </a>
-                                    <a href="#" className="p-3 bg-slate-800 rounded-lg text-slate-400 hover:text-white hover:bg-slate-700 transition-colors">
-                                        <Github size={20} />
-                                    </a>
-                                    <a href="#" className="p-3 bg-slate-800 rounded-lg text-slate-400 hover:text-white hover:bg-blue-400 transition-colors">
-                                        <Twitter size={20} />
-                                    </a>
-                                </div>
-                            </div>
+
                         </div>
                     </motion.div>
 

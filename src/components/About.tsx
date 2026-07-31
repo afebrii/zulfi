@@ -1,13 +1,14 @@
 import { motion } from 'framer-motion';
-import { Server, Database, Brain, Code2, LineChart, Cpu } from 'lucide-react';
+import { Database, Brain, Code2, LineChart, Table, Sparkles, LayoutDashboard } from 'lucide-react';
 
 const skills = [
-    { name: 'Python', icon: <Code2 size={24} />, category: 'Programming', color: 'text-yellow-400', bg: 'bg-yellow-400/10' },
+    { name: 'Excel', icon: <Table size={24} />, category: 'Spreadsheet', color: 'text-green-400', bg: 'bg-green-400/10' },
     { name: 'SQL', icon: <Database size={24} />, category: 'Database', color: 'text-blue-400', bg: 'bg-blue-400/10' },
-    { name: 'Machine Learning', icon: <Brain size={24} />, category: 'AI/ML', color: 'text-purple-400', bg: 'bg-purple-400/10' },
-    { name: 'Data Visualization', icon: <LineChart size={24} />, category: 'Analytics', color: 'text-green-400', bg: 'bg-green-400/10' },
-    { name: 'TensorFlow/PyTorch', icon: <Cpu size={24} />, category: 'AI/ML', color: 'text-orange-400', bg: 'bg-orange-400/10' },
-    { name: 'ETL Pipelines', icon: <Server size={24} />, category: 'Data Engineering', color: 'text-cyan-400', bg: 'bg-cyan-400/10' }
+    { name: 'Python', icon: <Code2 size={24} />, category: 'Programming', color: 'text-yellow-400', bg: 'bg-yellow-400/10' },
+    { name: 'Data Visualization', icon: <LineChart size={24} />, category: 'Analytics', color: 'text-cyan-400', bg: 'bg-cyan-400/10' },
+    { name: 'Data Cleaning', icon: <Sparkles size={24} />, category: 'Preparation', color: 'text-orange-400', bg: 'bg-orange-400/10' },
+    { name: 'Predictive Modeling', icon: <Brain size={24} />, category: 'Modeling', color: 'text-purple-400', bg: 'bg-purple-400/10' },
+    { name: 'Business Intelligence', icon: <LayoutDashboard size={24} />, category: 'Dashboards', color: 'text-pink-400', bg: 'bg-pink-400/10' }
 ];
 
 export default function About() {
@@ -33,10 +34,10 @@ export default function About() {
                         </div>
 
                         <p className="text-lg text-slate-400 leading-relaxed">
-                            I am a passionate <strong className="text-slate-200">Data Analyst and AI Enthusiast</strong> dedicated to extracting meaningful patterns from complex datasets. With a strong foundation in statistical analysis and machine learning, I strive to build data-driven solutions that create real business value.
+                            I have a strong passion for Data Analysis, dedicated to extracting meaningful patterns from complex datasets. With a honed analytical foundation, I focus on developing data-driven solutions that deliver tangible business value.
                         </p>
                         <p className="text-lg text-slate-400 leading-relaxed">
-                            My expertise spans across the entire data lifecycle—from data wrangling and ETL pipeline construction to advanced predictive modeling and interactive data visualizations. I believe that data is more than just numbers; it's the narrative that guides strategic decision-making.
+                            My expertise covers the end-to-end data processing lifecycle—from data wrangling and exploratory data analysis (EDA) to creating interactive data visualizations. I believe that data is more than just numbers; it is a narrative that guides strategic decision-making.
                         </p>
 
                         <div className="grid grid-cols-2 gap-6 pt-4">

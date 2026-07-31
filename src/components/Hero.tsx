@@ -39,7 +39,7 @@ export default function Hero() {
                         transition={{ duration: 0.5, delay: 0.2 }}
                         className="text-xl md:text-2xl text-slate-300 font-semibold mb-8"
                     >
-                        Data Analyst <span className="text-blue-500 mx-2">|</span> AI <span className="text-blue-500 mx-2">|</span> Machine Learning
+                        Data Analyst
                     </motion.h2>
 
                     <motion.p
@@ -48,7 +48,7 @@ export default function Hero() {
                         transition={{ duration: 0.5, delay: 0.3 }}
                         className="max-w-xl text-slate-400 text-lg md:text-xl mb-12"
                     >
-                        Transforming complex data into actionable insights and building robust machine learning models to solve real-world problems.
+                        Transforming complex data into actionable insights and interactive dashboards to solve real-world business problems.
                     </motion.p>
 
                     <motion.div
@@ -89,22 +89,6 @@ export default function Hero() {
                             />
                         </div>
                     </div>
-
-                    {/* Decorative floating badges */}
-                    <motion.div
-                        animate={{ y: [-10, 10, -10] }}
-                        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                        className="absolute top-10 -left-6 md:left-4 bg-slate-800/80 backdrop-blur-md p-3 rounded-xl border border-slate-700 shadow-xl"
-                    >
-                        <span className="text-cyan-400 font-bold text-lg">AI</span>
-                    </motion.div>
-                    <motion.div
-                        animate={{ y: [10, -10, 10] }}
-                        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                        className="absolute bottom-10 -right-4 md:right-0 bg-slate-800/80 backdrop-blur-md p-3 rounded-xl border border-slate-700 shadow-xl"
-                    >
-                        <span className="text-blue-400 font-bold text-lg">ML</span>
-                    </motion.div>
                 </motion.div>
             </div>
         </section>
