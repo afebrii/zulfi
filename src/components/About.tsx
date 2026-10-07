@@ -41,13 +41,13 @@ export default function About() {
                         </p>
 
                         <div className="grid grid-cols-2 gap-6 pt-4">
-                            <div className="border border-slate-700/50 bg-slate-800/30 p-4 rounded-xl backdrop-blur-sm">
-                                <h3 className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">3+</h3>
-                                <p className="text-slate-400 font-medium">Years Experience</p>
+                            <div className="border border-slate-700/50 bg-slate-800/30 p-4 rounded-xl backdrop-blur-sm flex flex-col justify-center">
+                                <h3 className="text-2xl sm:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 leading-tight">Fresh Graduate</h3>
+                                <p className="text-slate-400 font-medium mt-1">Data Analyst</p>
                             </div>
-                            <div className="border border-slate-700/50 bg-slate-800/30 p-4 rounded-xl backdrop-blur-sm">
+                            <div className="border border-slate-700/50 bg-slate-800/30 p-4 rounded-xl backdrop-blur-sm flex flex-col justify-center">
                                 <h3 className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">20+</h3>
-                                <p className="text-slate-400 font-medium">Projects Completed</p>
+                                <p className="text-slate-400 font-medium mt-1">Projects Completed</p>
                             </div>
                         </div>
                     </motion.div>
